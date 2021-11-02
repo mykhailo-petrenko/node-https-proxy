@@ -1,0 +1,23 @@
+{
+  "name": "https-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykhailo-petrenko/node-https-proxy.git"
+  },
+  "author": "Mykhailo Petrenko (mikael.petrenko@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mykhailo-petrenko/node-https-proxy/issues"
+  },
+  "homepage": "https://github.com/mykhailo-petrenko/node-https-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
