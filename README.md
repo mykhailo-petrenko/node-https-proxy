@@ -13,6 +13,16 @@ openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
 rm csr.pem
 ```
 
+## http-server for static files
+
+### install 
+```
+npm install -g http-server
+```
+
+### Usage
+- Create ssl certificates
+- Run `http-server -S`
 
 ## Links
 
